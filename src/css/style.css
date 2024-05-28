@@ -1,0 +1,142 @@
+.form{
+
+    color: #1C2833;
+
+}
+
+
+form{
+    text-align: center;
+}
+
+input[type=text],[type=password]{
+    background-color: #1C2833;
+    padding: 7px;
+    border: none;
+    border-radius: 5px; 
+    color:#95A5A6;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    background-color: #3498DB;
+    padding: 7px;
+    cursor:pointer;
+    border-radius: 5px; 
+
+}
+
+.logo-hover-off{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color:black;
+    border: 1px solid white;
+    float: left;
+    margin: 25px;
+    opacity: 0.9;
+    
+}
+
+.header{
+    background-color: #27AE60;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #1C2833;
+    
+}
+
+.logo-hover{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    text-align: center;
+    color:black;
+    border: 1px solid white;
+    float: left;
+    margin: 5px;
+    opacity: 0.9;
+    
+}
+
+
+.footer{
+    background-color: black;
+    padding: 20px;
+    
+}
+
+
+.container{
+    display: flex;
+    text-align: center;
+}
+
+
+.content{
+   flex: 1;  
+   border: 2px solid #1C2833;
+    
+}
+
+.content-header img{
+    height: 30px;
+    width: 30px;
+    
+}
+
+.content-header{
+    padding-left:5px;
+    background-color: #3498DB;
+    display: flex;
+    align-items: center;
+    
+}
+.content-header h2{
+    font-size: medium;
+    margin-left:5px;
+}
+
+.login-box{
+text-align: center;
+width:290px;
+border: 2px solid gray;
+border-radius: 40px 40px 0px 0px;
+padding:5px;
+margin:20px;
+
+}
+.login-box img{
+    margin-top:-40px;
+    border: 5px solid green;
+    border-radius: 50%;
+    padding:5px;
+}
+
+
+.login-box label{
+    float: left;
+    margin-right:2px;
+    font-weight: bold;
+    
+}
+.login-box input{
+    float:right;
+    
+}
+
+.login-buttons{
+    display: flex;
+    float:right;
+}
+.login-box input[type=submit]{
+    width:80px;
+    height: 25px;
+    float:right;
+    margin-right:15px;
+    font-size: 12px;
+    margin-top:15px;
+    margin-bottom:20px
+}
